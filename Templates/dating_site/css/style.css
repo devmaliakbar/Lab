@@ -1,0 +1,248 @@
+body {
+	background-color: #fef4f7;
+}
+.padding0{
+	padding: 0px !important;
+}
+.main_div {
+	width: 525px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+	background: #fff;
+	margin-top: 17px;
+	padding: 11px 65px 45px 65px;
+	font-size: 17px;
+	box-shadow: 0 0 10px rgba(238, 210, 210, 0.6);
+}
+.main_div h1 {
+	color: #484d65;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+.main_div p {
+	color: #4c5168;
+	line-height: 24px;
+	margin: 5px 0px 20px 7px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 399;
+	text-align: center;
+	font-size: 15px;
+}
+.main_div h6 {
+	color: #d2003f;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.main_div form input {
+	border: 1px solid #4a4e66;
+	border-radius: 9px;
+	width: 100%;
+	padding: 14px 10px;
+	color: #62667a;
+}
+.next_btn {
+	background-color: #ff2056;
+	color: white;
+	display: block;
+	border-radius: 9px;
+	padding: 11px 0px;
+	font-weight: 605;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+.next_btn:hover {
+	color: white;
+	text-decoration: none;
+}
+.checkbox {
+	display: flex;
+	font-size: 13px !important;
+	color: #585d72;
+	font-weight: 400;
+	margin: 11px 0px 0px 0px;
+	justify-content: center;
+}
+.checkbox input {
+	width: auto !important;
+	margin-right: 10px;
+}
+.copyright {
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	color: #585c72;
+	margin-top: 30px;
+	text-align: center;
+}
+.main_div h4 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: #585d72;
+	font-weight: 300;
+	margin: 26px 0px 0px 0px;
+}
+.main_div h4 span {
+	color: #ff2f61;
+}
+.glyphicon {
+	display: none !important;
+}
+.right {
+	display: none;
+}
+.left {
+	display: none;
+}
+.carousel-indicators {
+	display: none;
+}
+.carousel-inner img {
+	margin: 0 auto;
+}
+.slider {
+	margin: 20px 0px 45px 0px;
+}
+.small_text {
+	font-size: 10px !important; 
+	margin: 0px !important;
+	text-align: left !important;
+	padding: 0px !important;
+	font-family: 'Poppins', sans-serif;
+}
+form label {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+form {
+	text-align: left;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+.fade-in.four {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.fade-in.five {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2.4s;
+}
+.fade-in.six {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2.6s;
+}
+
+/*---make a basic box ---*/
+.box {
+	position: relative;
+	margin: 10px;
+	display: flex;
+	justify-content: left;
+	margin-bottom: 20px;
+}
+.box h5 {
+	margin-left: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	font-weight: 399;
+	color: #4c5168;
+	position: relative;
+	top: 8px;
+}
+#mainiframe {
+ 	background-color: transparent;
+	width: 100%;
+	height: 810px;
+}
+.btn-info {
+	background-color: black !important;
+}
+.img4 {
+	height: 38px;
+} 
+a img {
+	float: right;
+	position: relative;
+	top: 10px;
+	right: 39px;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+	body {
+		background-color: white;
+	}
+	.main_div {
+		margin-top: 0px;
+		width: 100%;
+		padding: 11px 25px 45px 25px;
+		box-shadow: none !important;
+	}
+	.main_div form input {
+		padding: 9px 9px;
+		font-size: 12px;
+	}
+	.next_btn {
+		padding: 7px 0px;
+		font-size: 16px;
+		margin-top: 20px;
+		width: 63%;
+		margin: 0 auto;
+		margin-top: 18px;
+	}
+	a img {
+		top: 5px;
+		right: 26px;
+	}
+	.copyright {
+		margin-top: 8px;
+	}
+	.box h5 {
+		margin-left: 12px;
+		font-size: 12px;
+	}
+}

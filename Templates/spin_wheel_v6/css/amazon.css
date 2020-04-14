@@ -1,0 +1,1061 @@
+#q2,
+#q3,
+#q4,
+#v1b,
+#v1c,
+#v2b,
+#v2c,
+#v3b,
+#v3c,
+#v4s,
+#vfinal,
+.subheader,
+.validate {
+    display: none
+}
+.prize table {
+	margin: 0 auto	
+}
+.contestwrap table,
+.header table,
+.subheader table,
+td,
+tr {
+    border-collapse: collapse
+}
+.fbimg {
+    width: 100%;
+}
+.answer,
+.pbox h2,
+.prize h2,
+.prize h3,
+.prizebtn,
+.select2 {
+    font-weight: 300
+}
+
+.answer,
+.question {
+    text-align: center
+}
+
+.answer,
+.pbox {
+    cursor: pointer
+}
+
+#szlider,
+.pbox {
+    overflow: hidden
+}
+
+html {
+    font-family: sans-serif;
+    font-color: #000;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    background: #f7f7f7;
+    overflow: scroll !important;
+    color: #000
+
+}
+
+a,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0
+}
+.user-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+.mainpra {
+    margin-top: 32px !important;
+    margin-bottom: 0px !important;
+}
+p {
+    color: #737373
+}
+.girl {
+    position: absolute;
+    z-index: 9999;
+    width: 277px;
+    right: -121px;
+}
+#firstpage .mainpra h6{
+    color: #fff;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+#myBtn1:focus {
+    border: 0 !important;
+}
+#myBtn1:hover {
+    border: 0 !important;
+}
+#firstpage .mainpra h5 {
+    color: #fff;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.last-modal {
+    display: none;
+    position: fixed;
+    width: auto;
+    max-width: 400px;
+    height: 470px;
+    top: 14%;
+    left: 0;
+    margin-top: -180px;
+    background-color: #fff;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9999;
+    padding: 35px 0px 0px 0px;
+    border-radius: 16px;
+}
+.girlimg {
+    width: 275px;
+    padding-bottom: 25px;
+    height: 117px;
+}
+.last-modal h4 {
+    font-size: 21px;
+    color: #c82d59;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 504;
+}
+.last-modal h4 img {
+    margin: 0px 12px;
+    position: relative;
+    top: 0px;
+}
+#last-modal p {
+    font-size: 19px !important;
+    color: #333b57 !important;
+    font-weight: 300 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center !important;
+    padding: 0px 0px 2px 0px !important;
+    font-weight: 400 !important;
+    line-height: 19px;
+} 
+.last-modal h5 {
+    font-size: 19px;
+    color: #333b57;
+    font-weight: 401;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 3px 0px 0px 0px;
+    margin: 17px 0px 0px 0px !important;
+}
+#last-modal {
+    display: none;
+    position: fixed;
+    width: auto;
+    max-width: 400px;
+    height: 470px;
+    top: 14%;
+    left: 0;
+    margin-top: -180px;
+    background-color: #fff;
+    right: 0;
+    margin: 0 auto;
+    z-index: 99999;
+    padding: 35px 0px 0px 0px;
+    border-radius: 16px;
+}
+.delayedPopupWindow {
+    display: none;
+    position: fixed;
+    width: auto;
+    max-width: 400px;
+    height: 470px;
+    top: 14%;
+    left: 0;
+    margin-top: -180px;
+    background-color: #fff;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9999;
+    padding: 35px 0px 0px 0px;
+    border-radius: 16px;
+}
+.last-modal a h4 {
+    color: white;
+    background-color: #af1f48;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 10px 16px 2px 21px;
+    font-weight: 601;
+    border: 4px solid #f5d7e0;
+    border-right: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.last-modal a:hover {
+    text-decoration: none;
+}
+.last-modal a h6 {
+    color: white;
+    background-color: #c82d59;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 5px 38px 5px 15px;
+    font-weight: 500;
+    border: 4px solid #f5d7e0;
+    border-left: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.last-modal h3 {
+    margin: 10px 2% 5px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #11c195;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#firstpage p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 17px 0px 0px 0px;
+    font-size: 13px;
+    padding-bottom: 16px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.header {
+   z-index: 9999;
+    display: block;
+  padding-top: 10px;
+    width: 100%;
+    height: 44px;
+    background-color: #232f3e;
+}
+.congrats h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px 0px 26px 0px;
+}
+.arrowdiv img {
+    position: relative;
+    top: 27px;
+    z-index: 999;
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 96%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-bottom: 14px !important;
+    position: relative;
+    z-index: 9999;
+} 
+
+.contestwrap,
+.form_questions {
+    background-color: #fff;
+}
+
+.subheader {
+    background: rgba(0, 0, 0, .03);
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .05)
+}
+
+.contestwrap, .form_questions, .pbox, .reviews, .validate {
+    border: 0;
+    padding-bottom: 20px;
+}
+
+.subheader table,
+td,
+tr {
+    padding: 8px 0 4px
+}
+
+.subheader td {
+    valign: middle
+}
+
+.spacer {
+    height: 20px
+}
+
+.contestwrap {
+    /*box-shadow: 0 0 2px 2px #d2d2d2;*/
+    padding: 10px 0 4px;
+    border-radius: 3px
+}
+
+.contestwrap,
+.form_questions {
+    /*-webkit-box-shadow: 0 0 2px 2px #d2d2d2;
+    -moz-box-shadow: 0 0 2px 2px #d2d2d2*/
+}
+
+.toptext {
+    color: #212121;
+    font-size: small
+}
+
+.contestwrap p {
+    color: #776161;
+    font-size: small
+}
+
+.select2 {
+    color: #737373;
+    font-size: small;
+    padding: 8px 0 4px
+}
+
+.form_questions {
+    box-shadow: 0 0 2px 2px #d2d2d2;
+    padding: 10px 0 30px;
+    border-radius: 3px
+}
+.continue-btn {
+    font-size: 14px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-top: 12px;
+    font-weight: 503;
+    color: white !important;
+    display: block;
+    width: 55% !important;
+    margin: 0 auto;
+    background: #ef9204 !important;
+    border-radius: 50px !important;
+    border: 3px solid #fcead0 !important;
+}
+.modal {
+    display: none;
+    opacity: 1 !important;
+}
+#myModal {
+    display: none;
+    position: absolute;
+    background: black;
+    top: 0;
+}
+/*.step {
+    background: #232f3e;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 13px 30px 0px;
+}*/
+.my-object {
+    -webkit-animation: swirl-in-fwd 1.2s ease-out both;
+    animation: swirl-in-fwd 1.2s ease-out both
+}
+
+@-webkit-keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-1080deg) scale(0);
+        transform: rotate(-1080deg) scale(0);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+        opacity: 1
+    }
+}
+
+
+/*.last-modal {
+    -webkit-animation: swirl-in-fwd 1.2s ease-out both;
+    animation: swirl-in-fwd 1.2s ease-out both
+}*/
+
+/*@-webkit-keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes swirl-in-fwd {
+    0% {
+        -webkit-transform: rotate(-1080deg) scale(0);
+        transform: rotate(-1080deg) scale(0);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: rotate(0deg) scale(1);
+        transform: rotate(0deg) scale(1);
+        opacity: 1
+    }
+}*/
+.contestwrap p {
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+}
+.steppra {
+    display: flex;
+}
+.step b {
+    font-weight: 600;
+}
+.prize h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #232f3e;
+    font-weight: 401;
+    margin: 15px 0px 0px 0px;
+}
+.answer {
+    padding: 10px 5px;
+    width: 80%;
+    display: inline-block;
+    margin: 5px;
+    font-size: medium;
+    border: 1px solid;
+    border-color: #c89411 #b0820f #99710d;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 0 0 #fcf3dc;
+    -moz-box-shadow: inset 0 1px 0 0 #fcf3dc;
+    box-shadow: inset 0 1px 0 0 #fcf3dc;
+    background: #f3ce72;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFF8E3AD', endColorstr='#FFEEBA37', GradientType=0);
+    background: linear-gradient(to bottom, #f8e3ad, #eeba37);
+    background: -moz-linear-gradient(top, #f8e3ad, #eeba37);
+    background: -webkit-linear-gradient(top, #f8e3ad, #eeba37);
+    background: -o-linear-gradient(top, #f8e3ad, #eeba37);
+    background: -ms-linear-gradient(top, #f8e3ad, #eeba37);
+    color: #111
+}
+
+.pbox,
+.validate {
+    border-radius: 3px
+}
+
+.pbox h2,
+.pbox img,
+.pbox p,
+.prizebtn {
+    display: block
+}
+
+.question {
+    padding-top: 20px
+}
+
+.validate {
+    width: 100%;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 2px 2px #d2d2d2;
+    -webkit-box-shadow: 0 0 2px 2px #d2d2d2;
+    box-shadow: 0 0 2px 2px #d2d2d2;
+    padding: 0
+}
+
+#szlider {
+    width: 100%;
+    height: 4px;
+    background: #efefef
+}
+
+#szliderbar {
+    width: 0;
+    height: 4px;
+    background: #fc9a18
+}
+
+#szazalek {
+    color: #313c45;
+    font-size: small
+}
+
+.prize {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.pbox {
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #d2d2d2;
+    padding: 10px 6px;
+    position: relative
+}
+
+.pbox,
+.reviews {
+}
+
+.pbox img {
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.pbox h2,
+.pbox p {
+    margin: 6px 6px 0
+}
+
+.pbox h2 {
+    font-size: xlarge;
+    text-align: left
+}
+
+.pbox p {
+    font-size: small;
+    text-align: left
+}
+
+.pbox td,
+.prize h3,
+.prizebtn {
+    text-align: center
+}
+
+.button {
+    position: relative;
+	top: 10px;
+    border: 1px solid;
+    padding: 10px 35px;
+    font-size: .9em;
+    color: #000;
+    background: #f1c860;
+    background: -webkit-linear-gradient(top, #f5d78e, #eeb933);
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.prize h3 {
+    font-size: 1.5em;
+    padding: 5px 0
+}
+
+.prize h2 {
+    font-size: 1.2em;
+    text-align: left
+}
+
+.reviews {
+    padding: 0;
+}
+
+hr {
+    opacity: .2
+}
+
+.reviews .name {
+    font-weight: 700;
+    color: #333
+}
+
+.reviews .text {
+    padding-top: 19px;
+    padding-bottom: 5px;
+}
+
+.reviews .date {
+    padding-top: 5px;
+    color: #888a89;
+    font-size: 10px
+}
+.comment-box textarea {
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #da202a;
+    height: 110px;
+    color: #0b0b0b;
+    padding: 15px;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.calander {
+    padding: 3px 7px 0px 0px;
+}
+.comment-box input {
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 12px 45px;
+    margin-top: 15px;
+    font-weight: 500;
+    background: #da202a;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: 4px solid #f8d5d7;
+}
+.reviews table {
+    font-size: small;
+    padding: 0
+}
+.comment-box h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #cecece;
+    text-align: left;
+    font-weight: 400;
+    padding: 20px 0px 0px 0px;
+}
+.roundimg {
+    border-radius: 50%;
+    position: relative;
+    left: -17px;
+}
+.shadow {
+    position: relative;
+    top: -12px;
+}
+.reviews h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 9px;
+    background: #f6f6f6;
+    text-align: left;
+    color: #161616;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reviews hr {
+    opacity: 0
+}
+
+.commentpad {
+    padding: 15px;
+    background: #f6f6f6;
+    width: 150px;
+    border: 1px solid #f1f1f1;
+}
+.name h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #da202a;
+    font-weight: 500;
+}
+.last-modal a {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 59%;
+    border-radius: 50px;
+    margin-top: 11px;
+}
+#mobileOverlay {
+    display: none;
+}
+#mobileOverlay2 {
+    display: none;
+    border-radius: 0;
+    opacity: 0.60;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0;
+    bottom: 0;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    opacity: .65;
+    filter: alpha(opacity=85);
+    -moz-opacity: .85;
+    z-index: 9999;
+}
+.mobile-overlay {
+    width: 395px;
+    height: 395px !important;
+    display: block;
+    position: absolute !important;
+    top: 25 !important;
+    background: #000;
+    z-index: 9999 !important;
+    opacity: 0.20;
+    left: 53 !important;
+    right: 0;
+    border-radius: 247px;
+}
+.i10 {
+    width: 130px;
+    overflow: visible;
+    z-index: 99999;
+    position: relative;
+    top: 119px !important;
+}
+.reviews .text p {
+    color: #303030;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    position: absolute;
+    display: block;
+    left: 10px;
+    width: 105px;
+    height: 33px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 98px 31px;
+    background-position: center center;
+}
+
+.ricon1 {
+    position: absolute;
+    display: block;
+    background-image: url(../images/icon-right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 39px 28px;
+    width: 39px;
+    height: 28px;
+    right: 10px;
+    top: 10px
+ 
+}
+.tdprize {
+   padding-left:10px;
+}
+
+
+
+
+
+.instructions {
+  text-align:center;
+  font-size:20px;
+  margin: 15vh;
+}  
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////
+  //   Default Modal Styles   //
+////////////////////////////////////////////////////////////////////////////////////////////// */
+/*   This is the background overlay   */
+.backgroundOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    opacity: .85;
+    filter: alpha(opacity=85);
+    -moz-opacity: .85;
+    z-index: 9999;
+    display: none;
+}
+.formDescription p {
+    color: #cecece !important;
+    text-align: center;
+}
+.delayedPopupWindow {
+    display: none;
+    position: fixed;
+    width: auto;
+    max-width: 400px;
+    height: 470px;
+    top: 14%;
+    left: 0;
+    margin-top: -180px;
+    background-color: #fff;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9999;
+    padding: 35px 0px 0px 0px;
+    border-radius: 16px;
+}
+#delayedPopup h5 {
+    color: #292929 !important;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif !important;
+    letter-spacing: 2px;
+    padding: 12px 0px 0px 0px !important;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+#delayedPopup h6 {
+    color: #333b57 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 15px 0px 4px 0px !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    border-top: 1px solid #e6e6e6;
+    width: 71%;
+    margin-top: 9px !important;
+}
+#delayedPopup h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333b57;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 501;
+    letter-spacing: 3px;
+    margin: 25px 0px 0px 0px;
+}
+#delayedPopup h3 {
+    color: #c82d59;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin: 9px 0px 0px 0px;
+}
+/*   This is the closing button  */
+#btnClose {
+    width: 59%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #c82d59;
+    border-radius: 30px;
+    padding: 12px 0px 12px 0px;
+    color: white;
+    text-transform: uppercase;
+    margin: 14px 0px 0px 0px;
+    border: 4px solid #f5d7e0;
+    font-weight: 604;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+/*   This is the closing button hover state  */
+#btnClose:hover {
+  color: #BCBCBC;
+}
+/*   This is the description headline and paragraph for the form   */
+#delayedPopup > div.formDescription {
+  float: left;
+  display: block;
+  width: 44%;
+  padding: 1% 3%;
+  font-size: 18px;
+  color: #666;
+  clear: left;
+}
+/*   This is the styling for the form's headline   */
+#delayedPopup > div.formDescription h2 {
+  color: #444444;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+/* 
+////////// MailChimp Signup Form //////////////////////////////
+*/
+
+/*   This is the signup form body  */
+#delayedPopup #mc_embed_signup {
+  float: left;
+  width: 47%;
+  padding: 1%;
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-left: 1%;
+}
+/*   This is the styling for the signup form inputs  */
+#delayedPopup #mc-embedded-subscribe-form input {
+  width: 95%;
+  height: 30px;
+  font-size: 18px;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+/*   This is the styling for the signup form inputs when they are being hovered with the mouse  */
+#delayedPopup #mc-embedded-subscribe-form input:hover {
+  border:solid 2px #40c348;
+  box-shadow: 0 1px 3px #AAAAAA;
+}
+/*   This is the styling for the signup form inputs when they are focused  */
+#delayedPopup #mc-embedded-subscribe-form input:focus {
+  border:solid 2px #40c348;
+  box-shadow: none;
+}
+/*   This is the styling for the signup form submit button  */
+#delayedPopup #mc-embedded-subscribe {
+  width: 100%!important;
+  height: 40px!important;
+  margin: 10px auto 0 auto;
+  background: #5D9E62;
+  border: none;
+  color: #fff;
+}
+/*   This is the styling for the signup form submit button hover state  */
+#delayedPopup #mc-embedded-subscribe:hover {
+  background: #40c348;
+  color: #fff;
+  box-shadow:none!important;
+  cursor: pointer;
+}
+#firstpage {
+    
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #wheel {
+            width: 94%;
+    }
+     #wheelCon {
+        overflow: hidden;
+    }   
+    .i10 {
+        margin-top: -15px !important;
+    }
+    .spin-bg {
+        width: 96%;
+    }
+    #firstpage {
+        overflow: hidden;
+    }
+    .mobile-overlay {
+    width: 79% !important;
+    height: 289px !important;
+    position: relative;
+    left: 42px !important;
+    top: 11px !important;
+   }
+   #devMockup {
+    position: absolute;
+    max-width: 24% !important; 
+    height: auto;
+    z-index: 999 !important;
+    left: 138px !important;
+    top: 107.9px !important;
+    }
+    #confettiEffect2 { 
+        left: 0% !important;
+    }
+    #firstpage {
+        height: 637px;
+    }
+    #firstpage p {
+        margin: 10px 0px 0px 0px;
+    }
+    #btnClose {
+        width: 55%;
+        padding: 10px 0px 10px 0px;
+        font-size: 14px;
+        font-weight: 501;
+    }
+    #delayedPopup h6 {
+        font-size: 11px !important;
+        width: 57%;
+    }
+    #delayedPopup img {
+        width: 48%;
+    }
+    #delayedPopup h4 {
+        font-size: 15px;
+        margin: 15px 0px 0px 0px;
+    }
+    .delayedPopupWindow {
+        width: 314px;
+        height: 328px;
+        padding: 26px 0px 0px 0px;
+    }
+    .delayedPopupWindow {
+        width: 314px;
+        height: 360px;
+        padding: 26px 0px 0px 0px;
+    }
+    #last-modal {
+        width: 314px !important;
+        height: 392px !important;
+        padding: 26px 0px 0px 0px !important;
+    }
+    .last-modal h4 {
+        font-size: 17px;
+    }
+    #firstpage p {
+        width: 99%;
+    }
+    .last-modal h5 {
+        font-size: 16px;
+        padding: 0px;
+    }
+    #last-modal p {
+        font-size: 15px !important;
+        padding: 0px 0px 2px 0px !important;
+    }       
+    .last-modal a h4 {
+        padding: 9px 9px 2px 21px;
+        font-size: 20px;
+    }   
+    .last-modal a h6 {
+        padding: 7px 45px 7px 11px;
+        font-size: 12px;
+    }
+    .last-modal a {
+        width: 70%;
+        position: relative;
+        left: 10px;
+    }    
+    .congo {
+        width: 86%;
+        position: relative;
+        top: -11px;
+        left: -6px;
+    }
+}
